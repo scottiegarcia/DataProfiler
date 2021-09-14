@@ -85,7 +85,7 @@ The format for a structured profile is below:
             "data_type_representation": dict[string, float], 
             "min": [null, float, str],
             "max": [null, float, str],
-            "mode": float,
+            "mode": list[float],
             "median", float, 
             "median_absolute_deviation", float,
             "sum": float,
